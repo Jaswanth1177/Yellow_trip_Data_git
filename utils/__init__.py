@@ -4,5 +4,3 @@
 
 from utils.schemas import bronze_schema, silver_schema
 from utils.bronze_ingestion import run_bronze
-from utils.silver_cleaning import run_silver
-from utils.gold_metrics import compute_gold
